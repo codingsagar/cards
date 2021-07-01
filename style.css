@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans";
+}
+a {
+    color: #61dafb;
+}
+.main {
+    display: flex;
+    margin: 70px 10px;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+h1 {
+    text-align: center;
+    line-height: 100px;
+    background-color: #21bee9;
+}
+.card {
+    height: 320px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: rgb(29 29 96);
+    color: white;
+    transition: all 0.7s ease-in;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: height 0.3s ease-in;
+}
+.info {
+    padding: 10px 10px;
+}
+.title {
+    margin-bottom: 5px;
+}
+p {
+  font-size: 13px;
+}
+.card:hover {
+  color: yellow;
+}
+.card:hover img {
+  height: 0;
+}
+
+h3{
+    text-align: center;
+    padding: 20px 0;
+    background-color: gold;
+    color: red;
+}
+
